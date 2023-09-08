@@ -12,8 +12,10 @@ In this project, we aimed to generate new images of specific category(animals) u
 ## Data Preprocessing:
 
 Before training the GAN, performed essential data preprocessing steps:
-Normalization:  normalized pixel values to the range [-1, 1].
-Resizing: The real images and generated images were resized to 299*299*3 to match with the inception model(model used for calculating FID and IS score)
+
+**Normalization:**  normalized pixel values to the range [-1, 1].
+
+**Resizing:** The real images and generated images were resized to 299*299*3 to match with the inception model(model used for calculating FID and IS score)
 
 ## Model Architecture:
 
