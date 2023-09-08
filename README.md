@@ -1,4 +1,4 @@
-# GAN-image-Generation
+# DETAILED REPORT OF THIS PROJECT
 # Title: Generating Images Using a GAN
  
 ## Introduction:
