@@ -27,7 +27,7 @@ The generator is a critical component of the Generative Adversarial Network (GAN
 
 **Input:** The generator starts with a latent vector of dimension latent_dim (e.g., 100).
 **Neurons:** The dense layer has n_nodes neurons, calculated as 128 * 8 * 8, which equals 8192 nodes.
-**Activation Function:**Leaky ReLU (Rectified Linear Unit) with a small alpha value of 0.2 is used as the activation function. Leaky ReLU helps prevent the vanishing gradient problem and allows some small negative values to pass, which can be important for learning.
+**Activation Function:** Leaky ReLU (Rectified Linear Unit) with a small alpha value of 0.2 is used as the activation function. Leaky ReLU helps prevent the vanishing gradient problem and allows some small negative values to pass, which can be important for learning.
 
 #### Layer 2: Reshape Layer
 
